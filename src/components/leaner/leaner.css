@@ -1,0 +1,20 @@
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.timer {
+  margin-bottom: 20px;
+}
+
+.buttons button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
